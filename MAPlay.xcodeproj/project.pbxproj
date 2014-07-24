@@ -24,14 +24,14 @@
 		F60907F7197EDFD6007F331E /* MAPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60907F6197EDFD6007F331E /* MAPlayTests.m */; };
 		F6090802197EE1CD007F331E /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6090801197EE1CD007F331E /* MyAnnotation.m */; };
 		F6090808197EEBDD007F331E /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6090807197EEBDD007F331E /* CalloutView.m */; };
-		F609080F197EF3CD007F331E /* callout.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080B197EF3CD007F331E /* callout.png */; };
-		F6090810197EF3CD007F331E /* callout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080C197EF3CD007F331E /* callout@2x.png */; };
-		F6090811197EF3CD007F331E /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080D197EF3CD007F331E /* pin.png */; };
-		F6090812197EF3CD007F331E /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080E197EF3CD007F331E /* pin@2x.png */; };
 		F6090814197EF77F007F331E /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6090813197EF77F007F331E /* CalloutView.xib */; };
-		F609081E197F0262007F331E /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F609081B197F0262007F331E /* blue.png */; };
-		F609081F197F0262007F331E /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = F609081C197F0262007F331E /* green.png */; };
-		F6090820197F0262007F331E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = F609081D197F0262007F331E /* red.png */; };
+		F60908241981840E007F331E /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F60908211981840E007F331E /* blue.png */; };
+		F60908251981840E007F331E /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = F60908221981840E007F331E /* green.png */; };
+		F60908261981840E007F331E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = F60908231981840E007F331E /* red.png */; };
+		F609082B19818457007F331E /* callout.png in Resources */ = {isa = PBXBuildFile; fileRef = F609082719818457007F331E /* callout.png */; };
+		F609082C19818457007F331E /* callout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F609082819818457007F331E /* callout@2x.png */; };
+		F609082D19818457007F331E /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F609082919818457007F331E /* pin.png */; };
+		F609082E19818457007F331E /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F609082A19818457007F331E /* pin@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,14 +69,14 @@
 		F6090801197EE1CD007F331E /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		F6090806197EEBDD007F331E /* CalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
 		F6090807197EEBDD007F331E /* CalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
-		F609080B197EF3CD007F331E /* callout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callout.png; path = ../../../Downloads/MapkitResourcesAdvanced/callout.png; sourceTree = "<group>"; };
-		F609080C197EF3CD007F331E /* callout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "callout@2x.png"; path = "../../../Downloads/MapkitResourcesAdvanced/callout@2x.png"; sourceTree = "<group>"; };
-		F609080D197EF3CD007F331E /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../Downloads/MapkitResourcesAdvanced/pin.png; sourceTree = "<group>"; };
-		F609080E197EF3CD007F331E /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pin@2x.png"; path = "../../../Downloads/MapkitResourcesAdvanced/pin@2x.png"; sourceTree = "<group>"; };
 		F6090813197EF77F007F331E /* CalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
-		F609081B197F0262007F331E /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../../blue.png; sourceTree = "<group>"; };
-		F609081C197F0262007F331E /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../../green.png; sourceTree = "<group>"; };
-		F609081D197F0262007F331E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../red.png; sourceTree = "<group>"; };
+		F60908211981840E007F331E /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		F60908221981840E007F331E /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		F60908231981840E007F331E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		F609082719818457007F331E /* callout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout.png; sourceTree = "<group>"; };
+		F609082819818457007F331E /* callout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "callout@2x.png"; sourceTree = "<group>"; };
+		F609082919818457007F331E /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		F609082A19818457007F331E /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,13 +147,13 @@
 				F6090806197EEBDD007F331E /* CalloutView.h */,
 				F6090807197EEBDD007F331E /* CalloutView.m */,
 				F6090813197EF77F007F331E /* CalloutView.xib */,
-				F609080B197EF3CD007F331E /* callout.png */,
-				F609080C197EF3CD007F331E /* callout@2x.png */,
-				F609080D197EF3CD007F331E /* pin.png */,
-				F609080E197EF3CD007F331E /* pin@2x.png */,
-				F609081B197F0262007F331E /* blue.png */,
-				F609081C197F0262007F331E /* green.png */,
-				F609081D197F0262007F331E /* red.png */,
+				F60908211981840E007F331E /* blue.png */,
+				F60908221981840E007F331E /* green.png */,
+				F60908231981840E007F331E /* red.png */,
+				F609082719818457007F331E /* callout.png */,
+				F609082819818457007F331E /* callout@2x.png */,
+				F609082919818457007F331E /* pin.png */,
+				F609082A19818457007F331E /* pin@2x.png */,
 				F60907E3197EDFD6007F331E /* Images.xcassets */,
 				F60907CF197EDFD6007F331E /* Supporting Files */,
 			);
@@ -265,16 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F609080F197EF3CD007F331E /* callout.png in Resources */,
-				F609081F197F0262007F331E /* green.png in Resources */,
-				F609081E197F0262007F331E /* blue.png in Resources */,
-				F6090811197EF3CD007F331E /* pin.png in Resources */,
-				F6090812197EF3CD007F331E /* pin@2x.png in Resources */,
+				F609082B19818457007F331E /* callout.png in Resources */,
+				F609082C19818457007F331E /* callout@2x.png in Resources */,
+				F609082E19818457007F331E /* pin@2x.png in Resources */,
+				F60908251981840E007F331E /* green.png in Resources */,
+				F60908241981840E007F331E /* blue.png in Resources */,
 				F60907DF197EDFD6007F331E /* Main_iPad.storyboard in Resources */,
 				F60907E4197EDFD6007F331E /* Images.xcassets in Resources */,
 				F6090814197EF77F007F331E /* CalloutView.xib in Resources */,
-				F6090810197EF3CD007F331E /* callout@2x.png in Resources */,
-				F6090820197F0262007F331E /* red.png in Resources */,
+				F609082D19818457007F331E /* pin.png in Resources */,
+				F60908261981840E007F331E /* red.png in Resources */,
 				F60907DC197EDFD6007F331E /* Main_iPhone.storyboard in Resources */,
 				F60907D3197EDFD6007F331E /* InfoPlist.strings in Resources */,
 			);
@@ -514,6 +514,7 @@
 				F60907FC197EDFD6007F331E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F60907FD197EDFD6007F331E /* Build configuration list for PBXNativeTarget "MAPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				F60907FF197EDFD6007F331E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
