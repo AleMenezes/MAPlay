@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CalloutView.h
 //  MAPlay
 //
 //  Created by Alessandro Camillo Gimenez de Menezes on 22/07/14.
@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface CalloutView : UIView
 
-@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

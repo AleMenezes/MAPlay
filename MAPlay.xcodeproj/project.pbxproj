@@ -22,6 +22,16 @@
 		F60907ED197EDFD6007F331E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60907CC197EDFD6007F331E /* UIKit.framework */; };
 		F60907F5197EDFD6007F331E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F60907F3197EDFD6007F331E /* InfoPlist.strings */; };
 		F60907F7197EDFD6007F331E /* MAPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60907F6197EDFD6007F331E /* MAPlayTests.m */; };
+		F6090802197EE1CD007F331E /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6090801197EE1CD007F331E /* MyAnnotation.m */; };
+		F6090808197EEBDD007F331E /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6090807197EEBDD007F331E /* CalloutView.m */; };
+		F609080F197EF3CD007F331E /* callout.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080B197EF3CD007F331E /* callout.png */; };
+		F6090810197EF3CD007F331E /* callout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080C197EF3CD007F331E /* callout@2x.png */; };
+		F6090811197EF3CD007F331E /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080D197EF3CD007F331E /* pin.png */; };
+		F6090812197EF3CD007F331E /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F609080E197EF3CD007F331E /* pin@2x.png */; };
+		F6090814197EF77F007F331E /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6090813197EF77F007F331E /* CalloutView.xib */; };
+		F609081E197F0262007F331E /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F609081B197F0262007F331E /* blue.png */; };
+		F609081F197F0262007F331E /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = F609081C197F0262007F331E /* green.png */; };
+		F6090820197F0262007F331E /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = F609081D197F0262007F331E /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,18 @@
 		F60907F2197EDFD6007F331E /* MAPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MAPlayTests-Info.plist"; sourceTree = "<group>"; };
 		F60907F4197EDFD6007F331E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F60907F6197EDFD6007F331E /* MAPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPlayTests.m; sourceTree = "<group>"; };
+		F6090800197EE1CD007F331E /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		F6090801197EE1CD007F331E /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		F6090806197EEBDD007F331E /* CalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
+		F6090807197EEBDD007F331E /* CalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
+		F609080B197EF3CD007F331E /* callout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callout.png; path = ../../../Downloads/MapkitResourcesAdvanced/callout.png; sourceTree = "<group>"; };
+		F609080C197EF3CD007F331E /* callout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "callout@2x.png"; path = "../../../Downloads/MapkitResourcesAdvanced/callout@2x.png"; sourceTree = "<group>"; };
+		F609080D197EF3CD007F331E /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pin.png; path = ../../../Downloads/MapkitResourcesAdvanced/pin.png; sourceTree = "<group>"; };
+		F609080E197EF3CD007F331E /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pin@2x.png"; path = "../../../Downloads/MapkitResourcesAdvanced/pin@2x.png"; sourceTree = "<group>"; };
+		F6090813197EF77F007F331E /* CalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
+		F609081B197F0262007F331E /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../../blue.png; sourceTree = "<group>"; };
+		F609081C197F0262007F331E /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green.png; path = ../../green.png; sourceTree = "<group>"; };
+		F609081D197F0262007F331E /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +142,18 @@
 				F60907DD197EDFD6007F331E /* Main_iPad.storyboard */,
 				F60907E0197EDFD6007F331E /* ViewController.h */,
 				F60907E1197EDFD6007F331E /* ViewController.m */,
+				F6090800197EE1CD007F331E /* MyAnnotation.h */,
+				F6090801197EE1CD007F331E /* MyAnnotation.m */,
+				F6090806197EEBDD007F331E /* CalloutView.h */,
+				F6090807197EEBDD007F331E /* CalloutView.m */,
+				F6090813197EF77F007F331E /* CalloutView.xib */,
+				F609080B197EF3CD007F331E /* callout.png */,
+				F609080C197EF3CD007F331E /* callout@2x.png */,
+				F609080D197EF3CD007F331E /* pin.png */,
+				F609080E197EF3CD007F331E /* pin@2x.png */,
+				F609081B197F0262007F331E /* blue.png */,
+				F609081C197F0262007F331E /* green.png */,
+				F609081D197F0262007F331E /* red.png */,
 				F60907E3197EDFD6007F331E /* Images.xcassets */,
 				F60907CF197EDFD6007F331E /* Supporting Files */,
 			);
@@ -231,8 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F609080F197EF3CD007F331E /* callout.png in Resources */,
+				F609081F197F0262007F331E /* green.png in Resources */,
+				F609081E197F0262007F331E /* blue.png in Resources */,
+				F6090811197EF3CD007F331E /* pin.png in Resources */,
+				F6090812197EF3CD007F331E /* pin@2x.png in Resources */,
 				F60907DF197EDFD6007F331E /* Main_iPad.storyboard in Resources */,
 				F60907E4197EDFD6007F331E /* Images.xcassets in Resources */,
+				F6090814197EF77F007F331E /* CalloutView.xib in Resources */,
+				F6090810197EF3CD007F331E /* callout@2x.png in Resources */,
+				F6090820197F0262007F331E /* red.png in Resources */,
 				F60907DC197EDFD6007F331E /* Main_iPhone.storyboard in Resources */,
 				F60907D3197EDFD6007F331E /* InfoPlist.strings in Resources */,
 			);
@@ -253,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6090808197EEBDD007F331E /* CalloutView.m in Sources */,
 				F60907E2197EDFD6007F331E /* ViewController.m in Sources */,
 				F60907D9197EDFD6007F331E /* AppDelegate.m in Sources */,
+				F6090802197EE1CD007F331E /* MyAnnotation.m in Sources */,
 				F60907D5197EDFD6007F331E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
