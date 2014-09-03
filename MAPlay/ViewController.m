@@ -20,7 +20,7 @@
 - (void)viewDidLoad{
     // Do any additional setup after loading the view, typically from a nib.
     //4
-    self.mapView.delegate = self;
+    self.mapView.delegate = self;//DELEGATE MUITO IMPORTANTEEEEE PRA FUNCIONAR
     //5
     CLLocationCoordinate2D coordinate1;
     coordinate1.latitude = 40.740384;
@@ -40,7 +40,7 @@
     coordinate3.longitude = -73.991154;
     MyAnnotation *annotation3 = [[MyAnnotation alloc] initWithCoordinate:coordinate3 title:@"Virgin Records" subtitle:@"3"];
     [self.mapView addAnnotation:annotation3];
-    
+
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -52,7 +52,7 @@
     // 2
     MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 0.3*METERS_PER_MILE, 0.3*METERS_PER_MILE);
    [self.mapView setRegion:viewRegion animated:YES];
-    
+
 }
 
 
